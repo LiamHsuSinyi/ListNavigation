@@ -13,8 +13,11 @@ struct ModelData {
         case fileNotFound
     }
     
-    static func landmarks() throws -> [Landmark] {
-        try load("landmarkData.json")
+    static var landmarks: [Landmark] {
+        guard let landmarks: [Landmark] = try? load("landmarkData.json") else {
+            return []
+        }
+        return landmarks
     }
     
     static func load<T: Decodable>(_ filename: String) throws -> T {
