@@ -38,6 +38,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CD4D2042C23CF41009965C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0CD4D2002C23CCEB009965C6 /* Landmark.swift */,
+				0CD4D2022C23CDE5009965C6 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		0CD6ACCD2C23C95F00C5610A = {
 			isa = PBXGroup;
 			children = (
@@ -59,8 +68,7 @@
 			children = (
 				0CD6ACD92C23C95F00C5610A /* ListNavigationApp.swift */,
 				0CD6ACDB2C23C95F00C5610A /* ContentView.swift */,
-				0CD4D2002C23CCEB009965C6 /* Landmark.swift */,
-				0CD4D2022C23CDE5009965C6 /* ModelData.swift */,
+				0CD4D2042C23CF41009965C6 /* Model */,
 				0CD6ACE72C23CC8700C5610A /* Resources */,
 				0CD6ACDD2C23C96100C5610A /* Assets.xcassets */,
 				0CD6ACDF2C23C96100C5610A /* Preview Content */,
