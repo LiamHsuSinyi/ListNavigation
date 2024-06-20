@@ -11,6 +11,7 @@
 		0CD6ACDC2C23C95F00C5610A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6ACDB2C23C95F00C5610A /* ContentView.swift */; };
 		0CD6ACDE2C23C96100C5610A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6ACDD2C23C96100C5610A /* Assets.xcassets */; };
 		0CD6ACE12C23C96100C5610A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6ACE02C23C96100C5610A /* Preview Assets.xcassets */; };
+		0CD6ACE92C23CC9B00C5610A /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6ACE82C23CC9B00C5610A /* landmarkData.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		0CD6ACDB2C23C95F00C5610A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0CD6ACDD2C23C96100C5610A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CD6ACE02C23C96100C5610A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0CD6ACE82C23CC9B00C5610A /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				0CD6ACD92C23C95F00C5610A /* ListNavigationApp.swift */,
 				0CD6ACDB2C23C95F00C5610A /* ContentView.swift */,
+				0CD6ACE72C23CC8700C5610A /* Resources */,
 				0CD6ACDD2C23C96100C5610A /* Assets.xcassets */,
 				0CD6ACDF2C23C96100C5610A /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				0CD6ACE02C23C96100C5610A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0CD6ACE72C23CC8700C5610A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0CD6ACE82C23CC9B00C5610A /* landmarkData.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				0CD6ACE12C23C96100C5610A /* Preview Assets.xcassets in Resources */,
 				0CD6ACDE2C23C96100C5610A /* Assets.xcassets in Resources */,
+				0CD6ACE92C23CC9B00C5610A /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
