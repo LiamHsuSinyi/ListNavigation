@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0CD4D2012C23CCEB009965C6 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD4D2002C23CCEB009965C6 /* Landmark.swift */; };
+		0CD4D2032C23CDE5009965C6 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD4D2022C23CDE5009965C6 /* ModelData.swift */; };
 		0CD6ACDA2C23C95F00C5610A /* ListNavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6ACD92C23C95F00C5610A /* ListNavigationApp.swift */; };
 		0CD6ACDC2C23C95F00C5610A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6ACDB2C23C95F00C5610A /* ContentView.swift */; };
 		0CD6ACDE2C23C96100C5610A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6ACDD2C23C96100C5610A /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 
 /* Begin PBXFileReference section */
 		0CD4D2002C23CCEB009965C6 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		0CD4D2022C23CDE5009965C6 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		0CD6ACD62C23C95F00C5610A /* ListNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CD6ACD92C23C95F00C5610A /* ListNavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigationApp.swift; sourceTree = "<group>"; };
 		0CD6ACDB2C23C95F00C5610A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				0CD6ACD92C23C95F00C5610A /* ListNavigationApp.swift */,
 				0CD6ACDB2C23C95F00C5610A /* ContentView.swift */,
 				0CD4D2002C23CCEB009965C6 /* Landmark.swift */,
+				0CD4D2022C23CDE5009965C6 /* ModelData.swift */,
 				0CD6ACE72C23CC8700C5610A /* Resources */,
 				0CD6ACDD2C23C96100C5610A /* Assets.xcassets */,
 				0CD6ACDF2C23C96100C5610A /* Preview Content */,
@@ -153,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CD6ACDC2C23C95F00C5610A /* ContentView.swift in Sources */,
+				0CD4D2032C23CDE5009965C6 /* ModelData.swift in Sources */,
 				0CD6ACDA2C23C95F00C5610A /* ListNavigationApp.swift in Sources */,
 				0CD4D2012C23CCEB009965C6 /* Landmark.swift in Sources */,
 			);
