@@ -18,26 +18,22 @@ struct LandmarkList: View {
     }
     
     var body: some View {
-        NavigationSplitView {
-            List {
-                Toggle(isOn: $showFavoritesOnly) {
-                    Text("Favorites only")
+        
+        List {
+            Toggle(isOn: $showFavoritesOnly) {
+                Text("Favorites only")
+            }
+            
+            ForEach(filteredLandmarks) { landmark in
+                NavigationLink {
+                    LandmarkDetail(landmark: landmark)
+                } label: {
+                    LandmarkRow(landmark: landmark)
                 }
                 
-                ForEach(filteredLandmarks) { landmark in
-                    NavigationLink {
-                        LandmarkDetail(landmark: landmark)
-                    } label: {
-                        LandmarkRow(landmark: landmark)
-                    }
-                    
-                }
             }
-            .animation(.default, value: filteredLandmarks)
-            .navigationTitle("觀光地標")
-        } detail: {
-            Text("選擇一個地標")
         }
+        .animation(.default, value: filteredLandmarks)
     }
 }
 
