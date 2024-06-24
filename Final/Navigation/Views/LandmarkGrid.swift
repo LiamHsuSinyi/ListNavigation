@@ -23,26 +23,27 @@ struct LandmarkGrid: View {
     }
     
     var body: some View {
-        ScrollView {
-            Toggle(isOn: $showFavoritesOnly) {
-                Text("Favorites only")
-            }
-            .padding(.leading, 20)
-            .padding(.trailing, 20)
-            
-            LazyVGrid(columns: columns, content: {
-                ForEach(filteredLandmarks) { landmark in
-                    NavigationLink {
-                        LandmarkDetail(landmark: landmark)
-                    } label: {
-                        LandmarkColumn(landmark: landmark)
-                    }
+        NavigationStack {
+            ScrollView {
+                Toggle(isOn: $showFavoritesOnly) {
+                    Text("Favorites only")
                 }
-            })
-            .navigationTitle("觀光地標")
-            .padding(.leading, 20)
-            .padding(.trailing, 20)
-            .padding(.top, 20)
+                .padding(.leading, 20)
+                .padding(.trailing, 20)
+                
+                LazyVGrid(columns: columns, content: {
+                    ForEach(filteredLandmarks) { landmark in
+                        NavigationLink {
+                            LandmarkDetail(landmark: landmark)
+                        } label: {
+                            LandmarkColumn(landmark: landmark)
+                        }
+                    }
+                })
+                .padding(.leading, 20)
+                .padding(.trailing, 20)
+                .padding(.top, 20)
+            }
         }
         .animation(.default, value: filteredLandmarks)
     }

@@ -18,19 +18,20 @@ struct LandmarkList: View {
     }
     
     var body: some View {
-        
-        List {
-            Toggle(isOn: $showFavoritesOnly) {
-                Text("Favorites only")
-            }
-            
-            ForEach(filteredLandmarks) { landmark in
-                NavigationLink {
-                    LandmarkDetail(landmark: landmark)
-                } label: {
-                    LandmarkRow(landmark: landmark)
+        NavigationStack {
+            List {
+                Toggle(isOn: $showFavoritesOnly) {
+                    Text("Favorites only")
                 }
                 
+                ForEach(filteredLandmarks) { landmark in
+                    NavigationLink {
+                        LandmarkDetail(landmark: landmark)
+                    } label: {
+                        LandmarkRow(landmark: landmark)
+                    }
+                    
+                }
             }
         }
         .animation(.default, value: filteredLandmarks)
