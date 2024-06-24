@@ -33,6 +33,7 @@ struct LandmarkList: View {
                     
                 }
             }
+            .navigationTitle("觀光地標")
         }
         .animation(.default, value: filteredLandmarks)
     }

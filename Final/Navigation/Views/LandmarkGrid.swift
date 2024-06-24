@@ -44,6 +44,7 @@ struct LandmarkGrid: View {
                 .padding(.trailing, 20)
                 .padding(.top, 20)
             }
+            .navigationTitle("觀光地標")
         }
         .animation(.default, value: filteredLandmarks)
     }

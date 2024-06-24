@@ -14,7 +14,6 @@ struct ContentView: View {
         NavigationStack {
             if showingList {
                 LandmarkList()
-                    .navigationTitle("觀光地標")
                     .toolbar {
                         ToolbarItem(placement: .topBarTrailing) {
                             Button(action: {
@@ -27,7 +26,6 @@ struct ContentView: View {
                     }
             } else {
                 LandmarkGrid()
-                    .navigationTitle("觀光地標")
                     .toolbar {
                         ToolbarItem(placement: .topBarTrailing) {
                             Button(action: {
