@@ -16,7 +16,7 @@
 		0CD4D20B2C23CFDD009965C6 /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD4D20A2C23CFDD009965C6 /* LandmarkRow.swift */; };
 		0CD4D20D2C23D15F009965C6 /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD4D20C2C23D15F009965C6 /* LandmarkList.swift */; };
 		0CD4D20F2C23D505009965C6 /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD4D20E2C23D505009965C6 /* LandmarkDetail.swift */; };
-		0CD6ACDA2C23C95F00C5610A /* ListNavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6ACD92C23C95F00C5610A /* ListNavigationApp.swift */; };
+		0CD6ACDA2C23C95F00C5610A /* NavigationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6ACD92C23C95F00C5610A /* NavigationApp.swift */; };
 		0CD6ACDC2C23C95F00C5610A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD6ACDB2C23C95F00C5610A /* ContentView.swift */; };
 		0CD6ACDE2C23C96100C5610A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6ACDD2C23C96100C5610A /* Assets.xcassets */; };
 		0CD6ACE12C23C96100C5610A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD6ACE02C23C96100C5610A /* Preview Assets.xcassets */; };
@@ -33,8 +33,8 @@
 		0CD4D20A2C23CFDD009965C6 /* LandmarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkRow.swift; sourceTree = "<group>"; };
 		0CD4D20C2C23D15F009965C6 /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
 		0CD4D20E2C23D505009965C6 /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
-		0CD6ACD62C23C95F00C5610A /* ListNavigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListNavigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CD6ACD92C23C95F00C5610A /* ListNavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNavigationApp.swift; sourceTree = "<group>"; };
+		0CD6ACD62C23C95F00C5610A /* Navigation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Navigation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CD6ACD92C23C95F00C5610A /* NavigationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationApp.swift; sourceTree = "<group>"; };
 		0CD6ACDB2C23C95F00C5610A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0CD6ACDD2C23C96100C5610A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CD6ACE02C23C96100C5610A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		0CD6ACCD2C23C95F00C5610A = {
 			isa = PBXGroup;
 			children = (
-				0CD6ACD82C23C95F00C5610A /* ListNavigation */,
+				0CD6ACD82C23C95F00C5610A /* Navigation */,
 				0CD6ACD72C23C95F00C5610A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,22 +87,22 @@
 		0CD6ACD72C23C95F00C5610A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0CD6ACD62C23C95F00C5610A /* ListNavigation.app */,
+				0CD6ACD62C23C95F00C5610A /* Navigation.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0CD6ACD82C23C95F00C5610A /* ListNavigation */ = {
+		0CD6ACD82C23C95F00C5610A /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
-				0CD6ACD92C23C95F00C5610A /* ListNavigationApp.swift */,
+				0CD6ACD92C23C95F00C5610A /* NavigationApp.swift */,
 				0CD4D2052C23CF52009965C6 /* Views */,
 				0CD4D2042C23CF41009965C6 /* Model */,
 				0CD6ACE72C23CC8700C5610A /* Resources */,
 				0CD6ACDD2C23C96100C5610A /* Assets.xcassets */,
 				0CD6ACDF2C23C96100C5610A /* Preview Content */,
 			);
-			path = ListNavigation;
+			path = Navigation;
 			sourceTree = "<group>";
 		};
 		0CD6ACDF2C23C96100C5610A /* Preview Content */ = {
@@ -124,9 +124,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0CD6ACD52C23C95F00C5610A /* ListNavigation */ = {
+		0CD6ACD52C23C95F00C5610A /* Navigation */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0CD6ACE42C23C96100C5610A /* Build configuration list for PBXNativeTarget "ListNavigation" */;
+			buildConfigurationList = 0CD6ACE42C23C96100C5610A /* Build configuration list for PBXNativeTarget "Navigation" */;
 			buildPhases = (
 				0CD6ACD22C23C95F00C5610A /* Sources */,
 				0CD6ACD32C23C95F00C5610A /* Frameworks */,
@@ -136,9 +136,9 @@
 			);
 			dependencies = (
 			);
-			name = ListNavigation;
+			name = Navigation;
 			productName = ListNavigation;
-			productReference = 0CD6ACD62C23C95F00C5610A /* ListNavigation.app */;
+			productReference = 0CD6ACD62C23C95F00C5610A /* Navigation.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -156,7 +156,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0CD6ACD12C23C95F00C5610A /* Build configuration list for PBXProject "ListNavigation" */;
+			buildConfigurationList = 0CD6ACD12C23C95F00C5610A /* Build configuration list for PBXProject "Navigation" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -169,7 +169,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0CD6ACD52C23C95F00C5610A /* ListNavigation */,
+				0CD6ACD52C23C95F00C5610A /* Navigation */,
 			);
 		};
 /* End PBXProject section */
@@ -198,7 +198,7 @@
 				0C82A71D2C293FD100FD7647 /* LandmarkColumn.swift in Sources */,
 				0CD4D20D2C23D15F009965C6 /* LandmarkList.swift in Sources */,
 				0CD4D20F2C23D505009965C6 /* LandmarkDetail.swift in Sources */,
-				0CD6ACDA2C23C95F00C5610A /* ListNavigationApp.swift in Sources */,
+				0CD6ACDA2C23C95F00C5610A /* NavigationApp.swift in Sources */,
 				0CD4D2012C23CCEB009965C6 /* Landmark.swift in Sources */,
 				0CD4D20B2C23CFDD009965C6 /* LandmarkRow.swift in Sources */,
 				0CD4D2092C23CF87009965C6 /* CircleImage.swift in Sources */,
@@ -335,7 +335,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ListNavigation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Navigation/Preview Content\"";
 				DEVELOPMENT_TEAM = MR2ZB5DPXA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -349,7 +349,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yowoo.ListNavigation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yowoo.Navigation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -364,7 +364,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ListNavigation/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Navigation/Preview Content\"";
 				DEVELOPMENT_TEAM = MR2ZB5DPXA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -378,7 +378,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yowoo.ListNavigation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yowoo.Navigation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -389,7 +389,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0CD6ACD12C23C95F00C5610A /* Build configuration list for PBXProject "ListNavigation" */ = {
+		0CD6ACD12C23C95F00C5610A /* Build configuration list for PBXProject "Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CD6ACE22C23C96100C5610A /* Debug */,
@@ -398,7 +398,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0CD6ACE42C23C96100C5610A /* Build configuration list for PBXNativeTarget "ListNavigation" */ = {
+		0CD6ACE42C23C96100C5610A /* Build configuration list for PBXNativeTarget "Navigation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0CD6ACE52C23C96100C5610A /* Debug */,

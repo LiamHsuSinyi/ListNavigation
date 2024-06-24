@@ -1,6 +1,6 @@
 //
 //  LandmarkGrid.swift
-//  ListNavigation
+//  Navigation
 //
 //  Created by Liam on 2024/6/24.
 //
