@@ -2,7 +2,7 @@
     {
         "name": "台北 101",
         "category": "建築",
-        "city": "台北",
+        "city": "台北市",
         "state": "台灣",
         "id": 1001,
         "isFeatured": true,
@@ -18,7 +18,7 @@
     {
         "name": "中正紀念堂",
         "category": "建築",
-        "city": "台北",
+        "city": "台北市",
         "state": "台灣",
         "id": 1002,
         "isFeatured": false,
@@ -37,8 +37,8 @@
         "city": "新北市",
         "state": "台灣",
         "id": 1003,
-        "isFeatured": false,
-        "isFavorite": false,
+        "isFeatured": true,
+        "isFavorite": true,
         "en": "Jiufen",
         "coordinates": {
             "longitude": 121.843,
@@ -46,5 +46,117 @@
         },
         "description": "九份是臺灣新北市瑞芳區的一個地區，與基隆山遙望；整個小鎮座落於山坡地上，也因此形成了獨特的山坡和階梯式建築景觀。早期因金礦而興盛，礦坑挖掘殆盡後一度沒落。1990年代後，因電影《悲情城市》在此取景，其獨特的舊式建築、坡地及風情透過該片吸引國內外的注目，也為此地區重新帶來生機，成為觀光景點。",
         "imageName": "jiufen"
+    },
+    {
+        "name": "艋舺龍山寺",
+        "category": "宗教景點",
+        "city": "台北市",
+        "state": "台灣",
+        "id": 1004,
+        "isFeatured": false,
+        "isFavorite": false,
+        "en": "LungShan Temple",
+        "coordinates": {
+            "longitude": 121.499893,
+            "latitude": 25.037347
+        },
+        "description": "艋舺龍山寺（臺灣話：Báng-kah liông-san-sī），也稱萬華龍山寺，是位於臺灣臺北市萬華區（艋舺）的觀音寺，為龍山寺之一。建築列為國定古蹟。",
+        "imageName": "lungshan_temple"
+    },
+    {
+        "name": "國立國父紀念館",
+        "category": "建築",
+        "city": "台北市",
+        "state": "台灣",
+        "id": 1005,
+        "isFeatured": false,
+        "isFavorite": false,
+        "en": "National Sun Yat-sen Memorial Hall",
+        "coordinates": {
+            "longitude": 121.56,
+            "latitude": 25.04
+        },
+        "description": "國立國父紀念館，通稱國父紀念館，簡稱國館，是位於臺灣臺北市信義區的國家紀念建築，係紀念中華民國國父孫中山百年誕辰而興建的綜合性文化紀念設施，於1972年5月16日落成啟用，館區總面積達三萬五千坪（約11萬5702.48平方公尺）。除了具紀念功能外，建築本體周圍是戶外運動、休閒、藝文與知性活動的綜合性休憩公園。臺北市文資審議委員會2018年12月28日審議國父紀念館文資價值，通過指定為古蹟。",
+        "imageName": "Sun_Ya_sen"
+    },
+    {
+        "name": "西門町",
+        "category": "地區",
+        "city": "台北市",
+        "state": "台灣",
+        "id": 1006,
+        "isFeatured": false,
+        "isFavorite": false,
+        "en": "Ximending",
+        "coordinates": {
+            "longitude": 121.507539,
+            "latitude": 25.042643
+        },
+        "description": "西門町（英語：Ximending）是位於臺灣臺北市萬華區的一個商圈，主要客源為年輕人和國際觀光客。西門徒步區街區發展促進會稱之為「西門町商圈」，以西門徒步區為中心，並由中華路、康定路、漢口街與成都路所圍起的區域。",
+        "imageName": "Ximending"
+    },
+    {
+        "name": "松山文創園區",
+        "category": "美術館",
+        "city": "台北市",
+        "state": "台灣",
+        "id": 1007,
+        "isFeatured": true,
+        "isFavorite": true,
+        "en": "Songshan Cultural and Creative Park",
+        "coordinates": {
+            "longitude": 121.5625,
+            "latitude": 25.043611
+        },
+        "description": "松山文創園區（英語：Songshan Cultural and Creative Park），通稱松菸，是位於臺灣臺北市信義區的複合式文化展演園區。前身為1939年啟用、1998年停產的「松山菸廠」，2001年由台北市政府指定為第99處市定古蹟，並於2010年正式轉型及定為現名。松山菸廠跡地在戰後種植大量植栽，停產後一度成為台北市東區最大的綠地；轉型為文創園區後，成為台北市東區重要的公共藝文設施。\n除松山文創園區外，松山菸廠跡地內還有臺北文創大樓、以及台北大巨蛋，3處設施分屬不同單位經營；相對於松山文創園區是古蹟活化再利用之設施，後兩者則在松山菸廠轉型後以BOT模式開發新建。",
+        "imageName": "songshan_cultural"
+    },
+    {
+        "name": "行天宮",
+        "category": "宗教景點",
+        "city": "台北市",
+        "state": "台灣",
+        "id": 1008,
+        "isFeatured": false,
+        "isFavorite": false,
+        "en": "Xingtian Temple",
+        "coordinates": {
+            "longitude": 121.533846,
+            "latitude": 25.063073
+        },
+        "description": "行天宮，或稱恩主公廟，位於臺灣臺北市中山區，又稱臺北關帝廟（如其廟籤詩上所印），主神為關聖帝君（恩主公，從神為關平關聖太子平、周倉周恩師倉）、呂恩主洞賓、張恩主單、王恩主善、岳恩主飛等五聖恩主，是臺灣知名的關帝廟，由經營煤礦事業有成的黃玄空道長所建設而成。本宮另有兩座分宮，位於臺北市北投區忠義山及新北市三峽區白雞山，稱「行天（宮）三宮」。其中，最早興建完成的是北投分宮，其次是三峽行修宮，臺北市區的本宮為行天三宮最晚落成者，廟門用108顆門釘代表108位神靈，即象徵36天罡星、72地煞星。",
+        "imageName": "Xingtian_Temple"
+    },
+    {
+        "name": "總統府",
+        "category": "建築",
+        "city": "台北市",
+        "state": "台灣",
+        "id": 1009,
+        "isFeatured": false,
+        "isFavorite": false,
+        "en": "Office of the President",
+        "coordinates": {
+            "longitude": 121.51204725553524,
+            "latitude": 25.040251809504667
+        },
+        "description": "中華民國總統府是中華民國總統的幕僚機關，負責處理與總統、副總統有關的行政事務；成立於1948年5月20日，機關之直接前身為國民政府。其與國家安全會議同為輔助總統行使職權之機關，由總統府秘書長領導。另轄管中央研究院及國史館。",
+        "imageName": "President_Office"
+    },
+    {
+        "name": "台北大巨蛋",
+        "category": "建築",
+        "city": "台北市",
+        "state": "台灣",
+        "id": 1010,
+        "isFeatured": true,
+        "isFavorite": true,
+        "en": "Taipei Dome",
+        "coordinates": {
+            "longitude": 121.5601,
+            "latitude": 25.042327
+        },
+        "description": "臺北大巨蛋，或稱臺北文化體育園區、臺北巨蛋，是位於臺灣臺北市信義區的多功能室內棒球場，是臺灣唯一的巨蛋級場館。為了跟早已啟用的臺北小巨蛋區別，因此稱為「臺北大巨蛋」。巨蛋園區坐落於光復南路、忠孝東路與市民大道之間，並相隔忠孝東路與國父紀念館對望，另以國父紀念館站為主要交通疏運設施。整個園區由臺北市政府以BOT模式交由遠雄集團旗下的遠雄巨蛋公司興建及營運到2062年，區內設置的項目除巨蛋外，另有百貨商場、商店街、影城（預定為秀泰影城）、飯店、辦公大樓等附屬商業設施。",
+        "imageName": "Taipei_Dome"
     },
 ]

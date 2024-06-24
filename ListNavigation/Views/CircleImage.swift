@@ -12,6 +12,8 @@ struct CircleImage: View {
 
     var body: some View {
         image
+            .resizable()
+            .scaledToFill()
             .frame(width: 300.0, height: 300)
             .clipShape(Circle())
             .overlay {
