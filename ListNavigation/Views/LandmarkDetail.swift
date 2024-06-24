@@ -37,6 +37,7 @@ struct LandmarkDetail: View {
                     
                     Text("關於 \(landmark.name)")
                         .font(.title2)
+                        .padding(.bottom, 10)
                     
                     Text(landmark.description)
                 }
