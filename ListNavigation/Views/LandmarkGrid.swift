@@ -9,23 +9,33 @@ import SwiftUI
 
 struct LandmarkGrid: View {
     
+    @State private var showFavoritesOnly = false
+    
     let columns: [GridItem] = [
         GridItem(.flexible(minimum: 100, maximum: 200)),
         GridItem(.flexible(minimum: 100, maximum: 200))
     ]
     
-    var landmarks: [Landmark] {
-        ModelData.landmarks
+    var filteredLandmarks: [Landmark] {
+        ModelData.landmarks.filter { landmark in
+            (!showFavoritesOnly || landmark.isFavorite)
+        }
     }
     
     var body: some View {
         ScrollView {
+            Toggle(isOn: $showFavoritesOnly) {
+                Text("Favorites only")
+            }
+            .padding(.leading, 20)
+            .padding(.trailing, 20)
+            
             LazyVGrid(columns: columns, content: {
-                ForEach(landmarks) { landmark in
+                ForEach(filteredLandmarks) { landmark in
                     NavigationLink {
                         LandmarkDetail(landmark: landmark)
                     } label: {
-                        LandmarkRow(landmark: landmark)
+                        LandmarkColumn(landmark: landmark)
                     }
                 }
             })
@@ -34,6 +44,7 @@ struct LandmarkGrid: View {
             .padding(.trailing, 20)
             .padding(.top, 20)
         }
+        .animation(.default, value: filteredLandmarks)
     }
 }
 
