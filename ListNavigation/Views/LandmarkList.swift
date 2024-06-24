@@ -34,9 +34,9 @@ struct LandmarkList: View {
                 }
             }
             .animation(.default, value: filteredLandmarks)
-            .navigationTitle("Landmarks")
+            .navigationTitle("觀光地標")
         } detail: {
-            Text("Select a Landmark")
+            Text("選擇一個地標")
         }
     }
 }

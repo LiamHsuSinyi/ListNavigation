@@ -13,34 +13,37 @@ struct LandmarkDetail: View {
     
     var body: some View {
         VStack {
-            MapView(coordinate: landmark.locationCoordinate)
-                .frame(height: 300)
-            
-            CircleImage(image: landmark.image)
-                .offset(y: -130)
-                .padding(.bottom, -130)
-            
-            VStack(alignment: .leading) {
-                Text(landmark.name)
-                    .font(.title)
+            ScrollView {
+                MapView(coordinate: landmark.locationCoordinate)
+                    .frame(height: 300)
                 
-                HStack {
-                    Text(landmark.park)
-                    Spacer()
-                    Text(landmark.state)
+                CircleImage(image: landmark.image)
+                    .offset(y: -130)
+                    .padding(.bottom, -130)
+                
+                VStack(alignment: .leading) {
+                    Text(landmark.name)
+                        .font(.title)
+                    
+                    HStack {
+                        Text(landmark.en)
+                        Spacer()
+                        Text(landmark.state)
+                    }
+                    .font(.subheadline)
+                    .foregroundColor(.secondary)
+                    
+                    Divider()
+                    
+                    Text("關於 \(landmark.name)")
+                        .font(.title2)
+                    
+                    Text(landmark.description)
                 }
-                .font(.subheadline)
-                .foregroundColor(.secondary)
+                .padding()
                 
-                Divider()
-                
-                Text("About \(landmark.name)")
-                    .font(.title2)
-                Text(landmark.description)
+                Spacer()
             }
-            .padding()
-            
-            Spacer()
         }
         .navigationTitle(landmark.name)
         .navigationBarTitleDisplayMode(.inline)
